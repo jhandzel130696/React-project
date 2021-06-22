@@ -16,7 +16,7 @@ class List extends React.Component {
     return (
       <section className={styles.component}> 
         <Hero titleText={this.props.title}
-              imageImg={this.props.img}/>
+              imageImg={this.props.image}/>
         
         <div className={styles.description}>
           {this.props.children}
