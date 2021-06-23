@@ -3,17 +3,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 class Column extends React.Component {
  static propTypes={
-    animals:PropTypes.string,
-    plants:PropTypes.string,
-    minerals:PropTypes.string,
+    columns:PropTypes.array,
   }
     render(){
         return(
             <section className={styles.component}>
                 <h3 className={styles.title}>
-                    {this.props.animal}
-                    {this.props.plants}
-                    {this.props.minerals}
+                    {this.props.columns}
                 </h3>
             </section>
         )

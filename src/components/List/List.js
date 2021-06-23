@@ -3,7 +3,7 @@ import styles from './List.scss';
 import Hero from '../Hero/Hero.js';
 import PropTypes from 'prop-types';
 import Column from '../Column/Column.js';
-import {settings} from '../../data/dataStore';
+import {settings} from '../../data/dataStore.js';
 import ReactHtmlParser from 'react-html-parser';
 class List extends React.Component {
   state = {
